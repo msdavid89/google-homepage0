@@ -1,0 +1,55 @@
+#main {
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+
+#navbar {
+	position: absolute;
+	right: 20px;
+	list-style-type: none;
+}
+
+#navbar ul li {
+	padding: 15px;
+}
+
+
+/* Experimented with a different style for images here
+#apps {
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -139px -45px;
+	width: 16px;
+	height: 16px;
+}
+
+#notifications {
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -279px -42px;
+	width: 23px;
+	height: 26px;
+}*/
+
+#footer {
+	position: fixed;
+	list-style-type: none;
+	bottom: 0;
+	background-color: #dddddd;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+#leftfooter {
+	float: left;
+	margin-left: 20px;
+}
+
+#rightfooter {
+	margin-right: 20px;
+	float: right;
+}
+
+li {
+	display: inline;
+	font-style: Arial;
+}
